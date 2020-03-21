@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "#";
+var prefix = "0
+";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "bc")) {
